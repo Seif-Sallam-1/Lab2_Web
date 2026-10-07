@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seif Emad Eldin Sallam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Seif Emad Eldin Sallam</h1>
+        <div class="subtitle">Web Developer | Designer | Freelancer</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Hello! I'm Seif, a passionate web developer with experience in creating responsive and 
+                interactive websites. I love coding, designing, and bringing ideas to life on the web.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Netfrix</h3>
+                    <p>A native Android movie discovery application built with Kotlin, Jetpack Compose, Retrofit, and Firebase as the DEPI graduation project.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>SmartCalculator</h3>
+                    <p>A desktop expression evaluator built in C++ utilizing Abstract Syntax Trees (AST) and a Qt graphical user interface.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>GreenGuard City</h3>
+                    <p>A multiplayer strategy game MVP built in Kotlin using Jetpack Compose focusing on environmental sustainability mechanics.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>TINY Language Compiler</h3>
+                    <p>A front-end compiler pipeline implementing scanner (lexer) and parser modules for the TINY programming language.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Azal</h3>
+                    <p>A food waste reduction platform prototype and business solution developed during the TIEC-InnovEgypt program.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>ALU Logic Design</h3>
+                    <p>Hardware logic simulation and datapath design including a 4-bit ALU input device.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault();">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Seif Emad. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
